@@ -132,13 +132,12 @@ class Notepad
 private:
 	Node* head; //start of list
 	Node* latestChar; //the latest inputted character (not the last character in the entire list)
-	Node* currentWordFirstChar; //for undo and redo implementation
+	Node* currentWordFirstChar; //for undo implementation
 	int numLines;
 	int consoleWidth;
 	int prefixLength; //for insertion
 	bool color;
 	Stack<Action> undoStack;
-	Stack<Action> redoStack;
 public:
 	Notepad()
 	{
@@ -879,11 +878,6 @@ public:
 			{
 				//reinsert deleted word
 			}
-
-			//push the undone action to the redo stack
-			if (redoStack.size() >= 5)
-				redoStack.pop();
-			redoStack.push(lastAction);
 		}
 	}
 

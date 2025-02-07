@@ -27,5 +27,11 @@ The tree is used for searching in O(log n) and word completion. It is independen
 - **crtl**: Save the file and exit
 - Enter and Backspace will work as they do in any text editor
 
+# Preview
+![image](https://github.com/user-attachments/assets/583b3052-a4c6-459e-bd8c-afd4ce9c9cb3)
+
+![image](https://github.com/user-attachments/assets/924e8ce5-05cf-4df8-b86d-d9f8a61f6e69)
+
+![image](https://github.com/user-attachments/assets/89eda24a-478e-411e-ba8d-d2f374c23fa8)
 
 # Happy writing :)

@@ -21,14 +21,15 @@ The tree is used for searching in O(log n) and word completion. It is independen
 # Features and their Keyboard Shortcuts
 - **alt**: Display the tree's structure node by node
 - **end**: Display the tree's structure word by word
-- **tab**: Search for a word or phrase (highlights the word/phrase in the notepad and outputs the position)
+- **tab**: Search for a word or phrase (highlights the word/phrase in the notepad and outputs the position of the first node)
 - **@**: Typing @ after an unfinished word will suggest words to complete based on the prefix (For example, if you type "hello world" and then "h@", you will have the option to complete with "hello")
 - **caps lock**: Undo
 - **crtl**: Save the file and exit
 - Enter and Backspace will work as they do in any text editor
 
 # Preview
-![image](https://github.com/user-attachments/assets/583b3052-a4c6-459e-bd8c-afd4ce9c9cb3)
+
+![image](https://github.com/user-attachments/assets/f54cf82c-e42e-414d-8921-9a616baeef84)
 
 ![image](https://github.com/user-attachments/assets/924e8ce5-05cf-4df8-b86d-d9f8a61f6e69)
 
